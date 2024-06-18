@@ -1,0 +1,164 @@
+p{
+	font-family: Arial;
+	font-size: 20px;
+	color: #C0C0C0;
+	padding: 50px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #FFFFFF;
+	height: 95px;
+	padding: 10px 0px 0px 190px;
+}
+#logo{
+	float:left;
+}
+#menu{
+	margin-top: -35px;
+	float:right;
+}
+#menu a{
+	padding: 30px;
+	text-decoration:none;
+	color: #363636;
+	font-family: Arial Black;
+	font-size: 13px;
+}
+#div_primeira{
+	height: 650px;
+	text-align: center;
+	font-size: 35px;
+	font-family: Arial Black;
+	padding: 400px 0 0 0;
+	color: white;
+	background-image: url('image2.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+#div_segunda{
+	background-color: grenn;
+	height: 450px;
+	text-align: center;
+	font-family: Arial Black;
+	padding-top: 100px;
+	font-size: 26px;
+	color: #2F4F4F;	
+}
+#div_terceira{
+	background-color: gray;
+	height: 350px;
+	color: white;
+	font-family: Arial Black;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 100px;
+	background-image: url('image8.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+#div_quarta{
+	background-color: black;
+	min-height: 350px;
+	color: white;
+}
+#div_esquerda{
+	background-color: #363636;
+	height: 500px;
+	width: 40%;
+	float: left;
+	text-align: center;
+	color: white;
+	font-family: Arial;
+}
+#div_direita{
+	background-color: #363636;
+	height: 500px;
+	width: 60%;
+	float: right;	
+}
+#div_image{
+	text-align: center;
+	padding-top: 50px;
+	padding-right: 20px;
+}
+
+#div_telefone{
+	padding-top: 249px;
+	float: left;
+	font-family: Arial;
+	color: white;
+}
+#div_logobottom{
+	float: left;
+}
+footer{
+	clear: both;
+	background-color: black;
+	height: 40px;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 13px;
+	padding: 10px;
+	color: white;
+	padding-top: 20px; 
+}
+/*class*/
+
+.container{
+	width: 960px;
+	margin:0 auto;
+}
+.blocoIcones{
+	float: left;
+	width: 10%;
+	height: 40px;
+	margin-top: 80px;
+	border: none;
+	padding-left: 210px;
+}
+.blocosIcones input type="text"{
+	float: hight;
+	width: 80%;
+	height: 100%;
+	
+}
+.blocosIcones button{
+	float:left;
+	width: 20%;
+	height: 100%;
+	border: none;
+}
+.btns{
+	text-align: center;
+	margin-top: 20px;
+}
+.efeito{
+	border: none;
+	color: #ffffff;
+	padding: 5px;
+	margin: 1px;
+	font-size: 15px;
+	line-height: 15px;
+	border-radius: 10px;
+	position: relative;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: all 400ms ease;
+}
+.efeito-3 {
+	background: #009c3d;
+}
+.efeito: hover{
+	background: rgba(0,0,0,0);
+	color: #009c3d;
+	box-shadow: inset 0 0 0 3px #009c3d;
+}
+	
+
+
+	
